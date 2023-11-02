@@ -1,0 +1,33 @@
+.custom-file-input {
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+    padding-top: 1rem;
+}
+
+.input-file {
+    display: none;
+}
+
+.file-label {
+    background-color: #5f9dff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #5f9dff;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.file-label:hover {
+    background-color: #4682b4;
+}
+
+.file-label span {
+    display: inline-block;
+}
+
+.input-file:focus+.file-label {
+    border: 2px solid #4682b4;
+}
